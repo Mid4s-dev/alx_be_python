@@ -1,5 +1,10 @@
-principal = 1000
-rates = 0.05
-time = 3
-interest = principle * rate * time 
-print (F"The siimple interest is :"{interest)
+principal = 1000      # Principal amount ($1000)
+rate = 0.05           # Annual interest rate (5%)
+time = 3              # Time in years
+
+# Calculate simple interest
+interest = principal * rate * time
+
+# Print result
+print(f"The simple interest is: {interest}")
+
